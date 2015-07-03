@@ -4,19 +4,19 @@
 		"email": "adrian@databank.ro",
 		"url": "https://geekinbox.com"
 	},
-	"name": "dbk-cloudsearch",
-	"description": "Wrapper around aws-sdk for nodejs to simplify working with CloudSearch",
+	"name": "aws-elasticsearch",
+	"description": "Wrapper around aws-sdk for nodejs to simplify working with ElasticSearch",
 	"keywords": [
-		"cloudsearch"
+		"elasticsearch"
 	],
 	"version": "0.0.2",
-	"homepage": "http://databank.github.com/aws-cloudsearch",
-	"bugs": "https://github.com/databank/aws-cloudsearch/issues",
+	"homepage": "http://databank.github.com/aws-elasticsearch",
+	"bugs": "https://github.com/databank/aws-elasticsearch/issues",
 	"repository": {
 		"type" :  "git",
-		"url": "https://github.com/databank/aws-cloudsearch"
+		"url": "https://github.com/databank/aws-elasticsearch"
 	},
-	"main": "./lib/cloudsearch",
+	"main": "./lib/elasticsearch",
 	"dependencies": {
 		"aws-sdk": ">=2.1.16"
 	},
