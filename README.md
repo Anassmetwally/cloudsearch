@@ -3,7 +3,7 @@ Upload, Delete and Search Amazon CloudSearch documents
 
 
 ```
-	var $search = require('dbk-elasticsearch')({
+	var $search = require('aws-elasticsearch')({
 		endpoint: 'XXX.YYY.cloudsearch.amazonaws.com',
 		accessKeyId: 'KKK',
 		secretAccessKey: 'SSS',

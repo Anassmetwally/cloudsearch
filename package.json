@@ -5,11 +5,11 @@
 		"url": "https://geekinbox.com"
 	},
 	"name": "aws-elasticsearch",
-	"description": "Wrapper around aws-sdk for nodejs to simplify working with ElasticSearch",
+	"description": "Wrapper around aws-sdk for nodejs to simplify working with Amazon CloudSearch",
 	"keywords": [
-		"elasticsearch"
+		"cloudsearch"
 	],
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"homepage": "http://databank.github.com/aws-elasticsearch",
 	"bugs": "https://github.com/databank/aws-elasticsearch/issues",
 	"repository": {
