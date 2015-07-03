@@ -1,0 +1,35 @@
+{
+	"author": {
+		"name": "Adrian Praja",
+		"email": "adrian@databank.ro",
+		"url": "https://geekinbox.com"
+	},
+	"name": "dbk-cloudsearch",
+	"description": "Wrapper around aws-sdk for nodejs to simplify working with CloudSearch",
+	"keywords": [
+		"cloudsearch"
+	],
+	"version": "0.0.1",
+	"homepage": "http://databank.github.com/aws-cloudsearch",
+	"bugs": "https://github.com/databank/aws-cloudsearch/issues",
+	"repository": {
+		"type" :  "git",
+		"url": "https://github.com/databank/aws-cloudsearch"
+	},
+	"main": "./lib/cloudsearch",
+	"dependencies": {
+		"aws-sdk": ">=2.1.16"
+	},
+	"devDependencies": {
+		"mocha": "*",
+		"chai": "*",
+		"should": "*"
+	},
+	"scripts": {
+		"test": "mocha --timeout 100000 -R spec"
+	},
+	"engines": {
+		"node": "*"
+	}
+}
+
