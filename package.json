@@ -2,14 +2,14 @@
 	"author": {
 		"name": "Adrian Praja",
 		"email": "adrian@databank.ro",
-		"url": "https://geekinbox.com"
+		"url": "https://databank.ro"
 	},
 	"name": "cloudsearch",
-	"description": "Wrapper around aws-sdk for nodejs to simplify working with Amazon CloudSearch",
+	"description": "Ez Amazon CloudSearch",
 	"keywords": [
 		"cloudsearch"
 	],
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"homepage": "http://databank.github.com/cloudsearch",
 	"bugs": "https://github.com/databank/cloudsearch/issues",
 	"repository": {
