@@ -47,9 +47,19 @@ function CloudSearchDomainSearch($csd, $text) {
 	}
 	this.csd = $csd
 	this.pendingFilter = null
+	this.queryParser = 'simple'
 	this.opts.query = $text
 	return this
 }
+CloudSearchDomainSearch.prototype.structured = function( ) {
+	this.queryParser = 'structured'
+	return this
+}
+CloudSearchDomainSearch.prototype.rawQuery = function($text) {
+	this.opts.query = $text
+	return this
+}
+
 CloudSearchDomainSearch.prototype.filter = function( $key ) {
 	this.pendingFilter = $key
 	return this
@@ -91,7 +101,7 @@ CloudSearchDomainSearch.prototype.query = function(cb) {
 		//highlight: 'STRING_VALUE',
 		//partial: true || false,
 		//queryOptions: 'STRING_VALUE',
-		queryParser: 'simple', // simple | structured | lucene | dismax',
+		queryParser: this.queryParser, // simple | structured | lucene | dismax',
 		//return: 'STRING_VALUE',
 		sort: this.opts.sort.field + ' ' + this.opts.sort.direction,
 	}
